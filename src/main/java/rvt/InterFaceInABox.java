@@ -1,4 +1,4 @@
-package main.java.rvt;
+package rvt;
 
 import java.util.ArrayList;
 

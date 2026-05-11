@@ -1,4 +1,4 @@
-package main.java.rvt.shop;
+package rvt.shop;
 import java.util.*;
 
 public class Item {
