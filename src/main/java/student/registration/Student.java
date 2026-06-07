@@ -15,6 +15,27 @@ public Student (String firstName, String lastName, String email, String personal
     this.personalCode = personalCode;
     this.date = date;
 }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPersonalCode() {
+        return personalCode;
+    }
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
     public String toCsvRow() {
         return String.join(",", firstName, lastName, email, personalCode, date.toString());
     }

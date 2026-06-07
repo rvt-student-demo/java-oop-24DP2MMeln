@@ -38,7 +38,7 @@ import java.util.regex.Pattern;
 
         public boolean checkEventString(String value) {
             boolean match = Pattern.matches("^[A-Za-z0-\\p{Punct}]+$", value);
-            
+            return match;
         }
 
         private void loadFromFile() {
